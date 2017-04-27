@@ -1,0 +1,9 @@
+{
+  "name": "react-lazy-img",
+  "version": "0.0.0",
+  "description": "Load images lazyly",
+  "main": "dist/lazy-img.min.js",
+  "repository": "git@github.com:fdaciuk/react-lazy-img.git",
+  "author": "Fernando Daciuk - @fdaciuk",
+  "license": "MIT"
+}

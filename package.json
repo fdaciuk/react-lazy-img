@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "Load images lazyly",
   "main": "dist/lazy-img.min.js",
+  "jsnext:main": "src/index.js",
+  "module": "src/index.js",
   "repository": "git@github.com:fdaciuk/react-lazy-img.git",
   "author": "Fernando Daciuk - @fdaciuk",
   "license": "MIT"

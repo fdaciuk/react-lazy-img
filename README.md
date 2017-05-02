@@ -1,1 +1,1 @@
-# react-lazy-img
+# React Lazy Image

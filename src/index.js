@@ -3,7 +3,7 @@
 import React, { PureComponent } from 'react'
 import t from 'prop-types'
 
-class LazyImg extends Component {
+class LazyImg extends PureComponent {
   constructor () {
     super()
     this.state = { loaded: false }

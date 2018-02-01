@@ -4,15 +4,12 @@ import React, { PureComponent } from 'react'
 import t from 'prop-types'
 
 class LazyImg extends PureComponent {
-  constructor () {
-    super()
-    this.state = { loaded: false }
-    this.img = {}
+  state = { loaded: false }
+  img = {}
 
-    this.handleLoad = () => {
-      this.setState({ loaded: true })
-      this.props.onImageLoad()
-    }
+  this.handleLoad = () => {
+    this.setState({ loaded: true })
+    this.props.onImageLoad()
   }
 
   componentDidMount () {
